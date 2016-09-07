@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		508465151D7F91210047F735 /* KeyboardHideExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508465141D7F91210047F735 /* KeyboardHideExtension.swift */; };
 		D98191E51D7E108B0054B8B0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98191E41D7E108B0054B8B0 /* User.swift */; };
 		D98191E71D7E11980054B8B0 /* UsersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98191E61D7E11980054B8B0 /* UsersController.swift */; };
 		D98191E91D7E5B070054B8B0 /* PlayerOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98191E81D7E5B070054B8B0 /* PlayerOneViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		508465141D7F91210047F735 /* KeyboardHideExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHideExtension.swift; sourceTree = "<group>"; };
 		D98191E41D7E108B0054B8B0 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D98191E61D7E11980054B8B0 /* UsersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersController.swift; sourceTree = "<group>"; };
 		D98191E81D7E5B070054B8B0 /* PlayerOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerOneViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				D9DB538E1D7DE9FC00A2E176 /* ViewController.swift */,
 				D9DB53901D7DE9FC00A2E176 /* Main.storyboard */,
 				D98191E81D7E5B070054B8B0 /* PlayerOneViewController.swift */,
+				508465141D7F91210047F735 /* KeyboardHideExtension.swift */,
 				D98191EA1D7E5C780054B8B0 /* PlayerTwoViewController.swift */,
 				D98191E41D7E108B0054B8B0 /* User.swift */,
 				D98191E61D7E11980054B8B0 /* UsersController.swift */,
@@ -147,6 +150,7 @@
 				D9DB538F1D7DE9FC00A2E176 /* ViewController.swift in Sources */,
 				D98191E71D7E11980054B8B0 /* UsersController.swift in Sources */,
 				D98191E51D7E108B0054B8B0 /* User.swift in Sources */,
+				508465151D7F91210047F735 /* KeyboardHideExtension.swift in Sources */,
 				D9DB538D1D7DE9FC00A2E176 /* AppDelegate.swift in Sources */,
 				D98191EB1D7E5C780054B8B0 /* PlayerTwoViewController.swift in Sources */,
 				D98191E91D7E5B070054B8B0 /* PlayerOneViewController.swift in Sources */,
@@ -256,10 +260,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RockPaperScissors/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Austin-Hesterly.RockPaperScissors";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -267,10 +274,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RockPaperScissors/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Austin-Hesterly.RockPaperScissors";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
